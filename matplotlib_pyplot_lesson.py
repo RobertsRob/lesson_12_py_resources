@@ -153,3 +153,16 @@ ax.legend()
 # Отображение графика
 plt.show()
 
+# или
+
+plt.figure(figsize=(8, 6))  # Создание новой фигуры с заданным размером
+
+plt.plot(x, y, label='sin(x)', color='blue', linestyle='-', linewidth=2)
+plt.title('График синусоиды')
+plt.xlabel('X ось')
+plt.ylabel('Y ось')
+plt.grid(True)
+plt.legend()
+
+plt.show()  # Отображение графика
+
